@@ -1,7 +1,7 @@
 # eth-priv-to-addr
 
 ### What is this?
-`eth-priv-to-addr` is a docker utility meant to be invoked to ensure correctness of multiple implementations for deriving Ethereum account addresses from a given private key.
+`eth-priv-to-addr` is a docker utility meant to be invoked to ensure the correctness of multiple implementations for deriving an Ethereum account address from a given private key.
 
 [MyEtherWallet](https://github.com/myetherwallet/myetherwallet) uses `eth-priv-to-addr` as part of their [derivationChecker](https://github.com/MyEtherWallet/MyEtherWallet/blob/develop/spec/integration/derivationChecker.int.ts) integration test.
 
